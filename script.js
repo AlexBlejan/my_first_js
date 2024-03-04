@@ -31,3 +31,10 @@ console.log(`Suma dintre ${firstNumber} si ${secondNumber} este ${sumNumber}`);
 let years = 5;
 let pastAge = age - years;
 console.log(`Acum ${years} ani aveam varsta de ${pastAge}`);
+
+// inmultire
+
+let numberA = 5;
+let numberB = 9;
+let multipyResult = numberA * numberB;
+console.log(`${numberA} inmultit cu ${numberB} rezulta ${multipyResult}`);
