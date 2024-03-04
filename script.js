@@ -84,3 +84,10 @@ console.log(`Lungimea sirului '${myName}' este ${myNameLength}`);
 // ultimul caracter
 const lastCharInName = myName[10];
 console.log(`Ultimul caracter este '${lastCharInName}'`);
+
+//verificare numar par/impar
+
+let checkedNumber = 21;
+let remainder = checkedNumber % 2;
+let isEven = remainder === 0;
+console.log(`Number ${checkedNumber} is even: ${isEven} `);
