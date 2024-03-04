@@ -38,3 +38,10 @@ let numberA = 5;
 let numberB = 9;
 let multipyResult = numberA * numberB;
 console.log(`${numberA} inmultit cu ${numberB} rezulta ${multipyResult}`);
+
+// impartire
+
+let numberC = 45;
+let numberD = 9;
+let divisionResult = numberC / numberD;
+console.log(`${numberC} impratit la ${numberD} rezulta ${divisionResult}`);
