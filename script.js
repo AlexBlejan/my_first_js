@@ -51,4 +51,19 @@ console.log(`${numberC} impratit la ${numberD} rezulta ${divisionResult}`);
 let numberE = 15;
 let numberF = 4;
 let moduloResult = numberE % numberF;
-console.log = `Restul impartirii lui ${numberE} la ${numberF} este ${moduloResult}`;
+console.log(
+	`Restul impartirii lui ${numberE} la ${numberF} este ${moduloResult}`
+);
+
+// cum aflam cel mai mare numar de tip NUMBER
+console.log(Number.MAX_SAFE_INTEGER);
+
+// cum aflam cel mai mic numar tip NUMBER
+
+console.log(Number.MIN_SAFE_INTEGER);
+
+// numere de tip BIGINT
+
+let bigIntNumber =
+	589732680172634059873614508917023498670981374098720398476098234760982374698273094678961n;
+console.log(`BigInt value is ${bigIntNumber}`);
