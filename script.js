@@ -67,3 +67,20 @@ console.log(Number.MIN_SAFE_INTEGER);
 let bigIntNumber =
 	589732680172634059873614508917023498670981374098720398476098234760982374698273094678961n;
 console.log(`BigInt value is ${bigIntNumber}`);
+
+// String operations
+
+const myName = `Alex Blejan`;
+
+// afisarea unui caracter de la o pozitie
+// primul caracter
+const firstCharInName = myName[0];
+console.log(`Primul caracter din sir este ${firstCharInName}`);
+
+// lungimea sirului
+const myNameLength = myName.length;
+console.log(`Lungimea sirului '${myName}' este ${myNameLength}`);
+
+// ultimul caracter
+const lastCharInName = myName[10];
+console.log(`Ultimul caracter este '${lastCharInName}'`);
