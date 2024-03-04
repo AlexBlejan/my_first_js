@@ -25,3 +25,9 @@ firstNumber = 50;
 sumNumber = firstNumber + secondNumber;
 console.log(sumNumber);
 console.log(`Suma dintre ${firstNumber} si ${secondNumber} este ${sumNumber}`);
+
+// scadere
+
+let years = 5;
+let pastAge = age - years;
+console.log(`Acum ${years} ani aveam varsta de ${pastAge}`);
