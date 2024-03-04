@@ -45,3 +45,10 @@ let numberC = 45;
 let numberD = 9;
 let divisionResult = numberC / numberD;
 console.log(`${numberC} impratit la ${numberD} rezulta ${divisionResult}`);
+
+// Restul impartirii
+
+let numberE = 15;
+let numberF = 4;
+let moduloResult = numberE % numberF;
+console.log = `Restul impartirii lui ${numberE} la ${numberF} este ${moduloResult}`;
